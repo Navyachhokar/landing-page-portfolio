@@ -102,3 +102,43 @@ footer{
     height: 80px;
     color:#fff;
 }
+.contact{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 100px 0;
+    text-align: center;
+}
+.container{
+    background-color: #3882F6;
+    padding: 18px 36px;
+    border-radius: 10px;
+}
+.container h2{
+    font-size: 36px;
+    color:#F9FAF8;
+    font-weight: 800;
+    margin-bottom: 8px; 
+   
+}
+.container p{
+    color:#c9cacc;
+}
+
+.link{
+    display: flex;
+    flex-direction: column;
+    margin: 15px;
+}
+
+.container .link p{
+    color:black;
+    align-self: center;
+}
+.link a{
+    text-decoration: none;
+    color: black;
+}
+.link a:hover {
+  color: #ffffff;
+}
